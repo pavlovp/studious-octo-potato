@@ -23,7 +23,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name pavelpavlovdefaultst -d '$web' -s .
+            az storage blob upload-batch --account-name pavelpavlovdefaultst -d '$web' -s build
         
   # Azure logout 
     - name: logout
